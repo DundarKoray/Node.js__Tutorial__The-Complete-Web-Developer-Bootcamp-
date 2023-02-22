@@ -44,8 +44,8 @@ const models = require('./models')
 // }).then((dish) => console.log(dish))
 
 // DELETE AN ENTRY
-models.Dish.destroy({
-    where: {
-        id: 3
-    }
-}).then((dish) => console.log(dish))
+// models.Dish.destroy({
+//     where: {
+//         id: 3
+//     }
+// }).then((dish) => console.log(dish))
